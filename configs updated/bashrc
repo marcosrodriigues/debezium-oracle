@@ -1,0 +1,18 @@
+[kafka@eb490f77c119 ~]$ cat .bashrc
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+export LD_LIBRARY_PATH=/kafka/instantclient/
+export KAFKA_CONNECT_JDBC_DIR=$KAFKA_CONNECT_PLUGINS_DIR/debezium-connector-oracle
+export BOOTSTRAP_SERVERS=kafka:9092
+export KAFKA_DEBUG=true
+export DEBUG_SUSPEND_FLAG=n
+export JAVA_DEBUG_PORT=0.0.0.0:5005

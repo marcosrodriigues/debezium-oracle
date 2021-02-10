@@ -1,0 +1,5 @@
+[kafka@eb490f77c119 ~]$ ls instantclient/
+BASIC_LICENSE  libclntsh.so       libclntsh.so.18.1  libclntshcore.so       libclntshcore.so.20.1  libocci.so.10.1  libocci.so.19.1  libocijdbc21.so  ucp.jar
+BASIC_README   libclntsh.so.10.1  libclntsh.so.19.1  libclntshcore.so.12.1  libclntshcore.so.21.1  libocci.so.11.1  libocci.so.20.1  liboramysql.so   uidrvci
+adrci          libclntsh.so.11.1  libclntsh.so.20.1  libclntshcore.so.18.1  libnnz21.so            libocci.so.12.1  libocci.so.21.1  network          xstreams.jar
+genezi         libclntsh.so.12.1  libclntsh.so.21.1  libclntshcore.so.19.1  libocci.so             libocci.so.18.1  libociei.so      ojdbc8.jar
